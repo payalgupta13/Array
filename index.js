@@ -6,7 +6,7 @@ const students = [
 
 ]
 
-for(let i=0; i<students.length; i++)
+for(const friend of students)
 {
-    console.log(`Hello ${students[i]}`)
+    console.log(`Hello ${friend}`)
 }
