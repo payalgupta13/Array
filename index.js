@@ -2,7 +2,11 @@ const students = [
 "Aishu",
 "Dnyanu",
 "Bhagu",
-"Vaishu",
+"Vaishu"
+
 ]
 
-console.log(`Hello ${students[0]}`)
+for(let i=0; i<students.length; i++)
+{
+    console.log(`Hello ${students[i]}`)
+}
